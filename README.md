@@ -16,50 +16,6 @@
 
 ---
 
-## SELECTED WORK
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### QUANT FOUND
-
-Systematic trading infrastructure for statistical arbitrage.
-
-**Python · Quantitative Research · Trading Systems**
-
-[View repository →](https://github.com/ostmax/quant_found)
-
-</td>
-
-<td width="33%" valign="top">
-
-### WSC ALPHA
-
-Quantitative research environment for systematic alpha development.
-
-**Python · Alpha Research · Backtesting**
-
-[View repository →](https://github.com/ostmax/quant-found-wsc-alpha)
-
-</td>
-
-<td width="33%" valign="top">
-
-### QUANT FOUND WEB
-
-Web interface for research and market intelligence.
-
-**TypeScript · Web · Data Visualization**
-
-[View repository →](https://github.com/ostmax/quant-found-web)
-
-</td>
-</tr>
-</table>
-
----
-
 ## THE SYSTEM
 
 <div align="center">
