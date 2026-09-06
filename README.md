@@ -107,7 +107,7 @@ Building infrastructure designed for continuous operation, failure recovery and 
 
 <br>
 
-*Ideas compound.*
+*PRIVATE R&D.*
 
 <br>
 
