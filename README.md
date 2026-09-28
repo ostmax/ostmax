@@ -101,13 +101,13 @@ Building infrastructure designed for continuous operation, failure recovery and 
 
 <div align="center">
 
-### MAXIM OSTROVSKII
+### MAKSIM OSTROVSKII
 
-**Founder & CEO — Quant Found**
+**Founder — Quant Found**
 
 <br>
 
-*PRIVATE R&D.*
+*Independent quantitative research & trading systems (private R&D)*
 
 <br>
 
