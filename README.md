@@ -89,11 +89,9 @@ Building infrastructure designed for continuous operation, failure recovery and 
 
 <div align="center">
 
-`Python` · `Polars` · `TypeScript` · `Linux`
-
-`Quantitative Finance` · `Statistical Arbitrage`
-
-`Market Data` · `Algorithmic Trading` · `Data Engineering`
+Python · Polars · TypeScript · Linux
+Machine Learning · Statistical Modeling · Quantitative Finance
+Market Data · Algorithmic Trading · Data Engineering
 
 </div>
 
