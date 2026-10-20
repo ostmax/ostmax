@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/quant-found-hero.jpg" width="100%" alt="Quant Found">
+<img src="./assets/quant-found-hero.jpg" width="100%" alt="Quant Fund">
 
 <br><br>
 
-# QUANT FOUND
+# QUANT FUND
 
 ### Building systems that turn market data into measurable decisions.
 
@@ -24,7 +24,7 @@
 
 </div>
 
-Quant Found is built around a continuous research-to-production process.
+Quant Fund is built around a continuous research-to-production process.
 
 Raw market information becomes structured data.
 Structured data becomes measurable hypotheses.
@@ -103,7 +103,7 @@ Building infrastructure designed for continuous operation, failure recovery and 
 
 ### MAKSIM OSTROVSKII
 
-**Founder — Quant Found**
+**Founder — Quant Fund**
 
 <br>
 
