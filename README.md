@@ -1,4 +1,4 @@
-\<!-- HERO -->
+&#x20;\<!-- HERO -->
 
 \<p align="center">
 &#x20; \<img src="./assets/quant-found-hero.jpg" width="100%" alt="Quant Found Research OS">
@@ -10,7 +10,7 @@
 
 \<p align="center">   Исследовательская операционная система для изучения финансовых рынков,\<br>   проверки количественных гипотез и систематизации исследовательских знаний. \</p>
 
-\<p align="center">   \<a href="#-обзор">Обзор\</a> &nbsp;·&nbsp;   \<a href="#-архитектура">Архитектура\</a> &nbsp;·&nbsp;   \<a href="#-исследования-и-разработка">Исследования\</a> &nbsp;·&nbsp;   \<a href="#-методология">Методология\</a> &nbsp;·&nbsp;   \<a href="#-технологии">Технологии\</a> \</p>
+\<p align="center">   \<a href="#01--обзор">Обзор\</a> &nbsp;·&nbsp;   \<a href="#02--архитектура">Архитектура\</a> &nbsp;·&nbsp;   \<a href="#03--исследования-и-разработка">Исследования\</a> &nbsp;·&nbsp;   \<a href="#05--методология">Методология\</a> &nbsp;·&nbsp;   \<a href="#06--технологии">Технологии\</a> \</p>
 
 ---
 
@@ -55,7 +55,8 @@ Quant Found Research OS организована как взаимосвязан
 
 \</details>
 
-\<details> \<summary>\<strong>02 — Knowledge Core / Ядро знаний\</strong>\</summary>
+\<details>
+\<summary>\<strong>02 — Knowledge Core / Ядро знаний\</strong>\</summary>
 
 Структурированная исследовательская память, объединяющая данные и результаты работы системы.
 
@@ -246,10 +247,6 @@ Quant Found Research OS охватывает несколько направле
 
 Quant Found Research OS строится вокруг этой идеи: исследовательская система должна не просто проводить эксперименты, а накапливать опыт и повышать качество последующих исследований.
 
-\<p align="center">
-&#x20; \<strong>FROM MARKET DATA TO RESEARCH KNOWLEDGE.\</strong>
-\</p>
+\<p align="center">   \<strong>FROM MARKET DATA TO RESEARCH KNOWLEDGE.\</strong> \</p>
 
-\<p align="center">
-&#x20; \<sub>Quant Found Research OS · Independent Quantitative Research & Engineering\</sub>
-\</p>
+\<p align="center">   \<sub>Quant Found Research OS · Independent Quantitative Research & Engineering\</sub> \</p>
