@@ -1,7 +1,3 @@
-<!-- ======================================================= -->
-<!-- QUANT FOUND RESEARCH OS — PROFILE README              -->
-<!-- ======================================================= -->
-
 <div align="center">
   <img src="./assets/quant-found-hero.jpg" width="100%" alt="Quant Found Research OS">
 </div>
@@ -48,28 +44,25 @@
 
 ## 02. Архитектура
 
-Архитектура Quant Found Research OS построена вокруг взаимодействия четырёх основных компонентов: интеллектуального ядра, системы знаний, вычислительной инфраструктуры и независимой валидации.
-
 <a name="qf-architecture-map"></a>
 
 <div align="center">
   <img src="./assets/quant-found-architecture.jpg" width="100%" alt="Quant Found Research OS — System Architecture">
-  <sub>Quant Found Research OS — Архитектура системы</sub>
 </div>
 
 <div align="center">
 
-<a href="#qf-llm">QF LLM</a>
+<a href="#qf-llm">2.1_QF LLM</a>
 &nbsp;·&nbsp;
-<a href="#qf-knowledge-core">Knowledge Core</a>
+<a href="#qf-knowledge-core">2.2_Knowledge Core</a>
 &nbsp;·&nbsp;
-<a href="#qf-tool-layer">Tool Layer</a>
+<a href="#qf-tool-layer">2.3_Tool Layer</a>
 &nbsp;·&nbsp;
-<a href="#qf-research-execution">Research Execution</a>
+<a href="#qf-research-execution">2.4_Research Execution</a>
 &nbsp;·&nbsp;
-<a href="#qf-independent-validation">Independent Validation</a>
+<a href="#qf-independent-validation">2.5_Independent Validation</a>
 &nbsp;·&nbsp;
-<a href="#qf-knowledge-update">Decision & Knowledge Update</a>
+<a href="#qf-knowledge-update">2.6_Decision & Knowledge Update</a>
 
 </div>
 
