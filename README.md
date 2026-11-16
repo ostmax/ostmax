@@ -10,180 +10,335 @@
 
 <br>
 
-**DATA · RESEARCH · MODELS · STRATEGIES · EXECUTION · VALIDATION**
+**DATA · RESEARCH · MODELS · KNOWLEDGE · INTELLIGENCE · EXECUTION**
+
+<br>
+
+[Research Architecture](#system-architecture) · [Core Capabilities](#core-capabilities) · [Roadmap](#development-roadmap)
 
 </div>
 
 ---
 
-## THE SYSTEM
+## 01. ABOUT
 
-<div align="center">
+**Quant Found Research OS** is an independent research and engineering initiative focused on building a unified infrastructure for quantitative finance, systematic strategy development and AI-driven research.
 
-### DATA → RESEARCH → MODELS → STRATEGIES → EXECUTION → VALIDATION
+The long-term vision is to create an integrated research environment capable of collecting and processing market data, discovering statistical relationships, formulating hypotheses, conducting experiments, validating models and transforming verified findings into systematic strategies.
 
-</div>
+The platform combines three fundamental concepts:
 
-Quant Found is an independent quantitative research infrastructure designed to turn market data into structured knowledge, measurable hypotheses and validated strategies.
+- **Research Workflow** — the operational environment for quantitative investigation.
+- **Knowledge Core** — a persistent foundation for research knowledge, evidence and reproducibility.
+- **Intelligence Layer** — an integrated AI infrastructure designed to assist and eventually automate research processes.
 
-The system follows a continuous research lifecycle:
-
-Raw market data becomes structured information.
-
-Structured information enables testable hypotheses.
-
-Hypotheses are evaluated through statistical research and modeling.
-
-Models evolve into systematic strategies.
-
-Strategies undergo rigorous validation before reaching production.
-
-Production results feed back into the research process.
-
-The objective is not to predict every market movement.
-
-It is to discover, understand and validate repeatable market relationships that provide measurable statistical advantages.
+The ultimate objective is to build an independent research system with its own data infrastructure, knowledge base, computational capabilities and internal intelligence.
 
 ---
 
-## RESEARCH OS ARCHITECTURE
+## 02. SYSTEM ARCHITECTURE
 
-The platform is built around three interconnected layers.
+Quant Found is designed as an interconnected research infrastructure rather than a collection of independent trading algorithms.
 
-### 01 — RESEARCH WORKFLOW
+```mermaid
+flowchart TB
+    subgraph INT["INTELLIGENCE LAYER"]
+        LLM["Internal LLM"]
+        AGENTS["Research Agents"]
+        REASON["Reasoning & Orchestration"]
+    end
+
+    subgraph WORK["RESEARCH WORKFLOW"]
+        DATA["Market Data"]
+        RESEARCH["Research & Hypotheses"]
+        MODELS["Statistical Models & ML"]
+        STRATEGIES["Strategies & Portfolio"]
+        EXECUTION["Execution Systems"]
+        VALIDATION["Validation & Monitoring"]
+
+        DATA --> RESEARCH
+        RESEARCH --> MODELS
+        MODELS --> STRATEGIES
+        STRATEGIES --> EXECUTION
+        EXECUTION --> VALIDATION
+    end
+
+    subgraph KNOW["KNOWLEDGE CORE"]
+        KNOWLEDGE["Knowledge Base"]
+        EVIDENCE["Evidence & Provenance"]
+        EXPERIMENTS["Experiment Registry"]
+        MEMORY["Research Memory"]
+    end
+
+    INT <--> WORK
+    WORK <--> KNOW
+    INT <--> KNOW
+```
+
+### 2.1 Research Workflow
 
 The operational layer responsible for the complete research lifecycle.
 
-- **Data** — collection, normalization, storage and quality control.
-- **Research** — hypothesis generation, statistical testing and experimentation.
-- **Models** — statistical modeling, machine learning and predictive systems.
-- **Strategies** — alpha discovery, portfolio construction and systematic trading.
-- **Execution** — order management, execution infrastructure and risk controls.
-- **Validation** — out-of-sample testing, robustness analysis and performance monitoring.
+| Component | Responsibility |
+|---|---|
+| Data | Market data collection, normalization and storage |
+| Research | Hypothesis generation and statistical investigation |
+| Models | Statistical modeling, machine learning and prediction |
+| Strategies | Alpha discovery and portfolio construction |
+| Execution | Order management and trading infrastructure |
+| Validation | Robustness testing and performance monitoring |
 
-### 02 — KNOWLEDGE CORE
+### 2.2 Knowledge Core
 
-The persistent knowledge foundation of the system.
+The persistent knowledge foundation of Quant Found.
 
-- Structured research knowledge and documentation.
+Its purpose is to prevent research from becoming a collection of disconnected experiments.
+
+Core responsibilities:
+
+- Structured research knowledge.
 - Hypothesis and experiment registry.
 - Evidence management and source traceability.
 - Statistical results and validation history.
-- Reproducibility and research provenance.
-- Accumulation of validated and rejected findings.
+- Research documentation and provenance.
+- Reproducibility of experiments.
+- Accumulation of accepted and rejected findings.
 
 Every experiment should contribute to the accumulated knowledge of the system.
 
-Research results must remain traceable, reproducible and independently verifiable.
+### 2.3 Intelligence Layer
 
-### 03 — INTELLIGENCE LAYER
+The integrated intelligence infrastructure operating across the research workflow.
 
-The native intelligence infrastructure operating across the research workflow.
+Planned capabilities:
 
-- Internal LLM infrastructure.
-- Specialized AI research agents.
-- Knowledge retrieval and contextual reasoning.
+- Self-hosted LLM infrastructure.
+- Specialized research agents.
+- Retrieval-augmented generation (RAG).
+- Contextual reasoning and knowledge retrieval.
 - Automated research orchestration.
-- Research assistance and analytical interpretation.
-- Integration with data, models and experimental results.
+- Hypothesis generation and analytical assistance.
+- Integration with internal datasets, models and experiments.
 
-The long-term objective is to build an autonomous research environment that can discover, investigate, evaluate and explain quantitative opportunities without depending on external LLM providers.
-
----
-
-## CURRENT RESEARCH DIRECTIONS
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 — MARKET DATA**
-
-Real-time and historical market data infrastructure, market microstructure and data engineering.
-
-<br>
-
-**02 — ALPHA RESEARCH**
-
-Statistical relationships, market anomalies, systematic inefficiencies and potential sources of return.
-
-<br>
-
-**03 — QUANTITATIVE MODELS**
-
-Statistical models, machine learning, time series analysis and predictive research.
-
-</td>
-<td width="50%" valign="top">
-
-**04 — SYSTEMATIC STRATEGIES**
-
-Strategy development, portfolio construction, risk management and market-neutral approaches.
-
-<br>
-
-**05 — EXECUTION SYSTEMS**
-
-Order management, broker integration, execution quality, reconciliation and operational reliability.
-
-<br>
-
-**06 — RESEARCH INTELLIGENCE**
-
-Knowledge systems, internal LLMs, AI agents and automated research workflows.
-
-</td>
-</tr>
-</table>
+The long-term objective is to minimize dependency on external LLM providers and establish an independently operated intelligence environment.
 
 ---
 
-## RESEARCH PRINCIPLES
+## 03. CORE CAPABILITIES
 
-**Evidence over intuition.**
+### Market Data Engineering
 
-Every hypothesis must be translated into a measurable and falsifiable proposition.
+- Historical and real-time market data.
+- Data normalization and quality control.
+- High-volume time-series processing.
+- Parquet-based storage infrastructure.
+- Market microstructure research.
 
-**Statistical robustness over isolated performance.**
+### Quantitative Research
+
+- Statistical arbitrage.
+- Pairs trading and relative-value strategies.
+- Cross-sectional alpha research.
+- Market-neutral strategies.
+- Event-driven research.
+- Time-series analysis.
+- Statistical hypothesis testing.
+
+### Modeling & Machine Learning
+
+- Statistical models.
+- Regression and classification.
+- Gradient boosting.
+- Time-series modeling.
+- Feature engineering.
+- Model evaluation and validation.
+
+### Systematic Trading
+
+- Portfolio construction.
+- Position sizing.
+- Risk management.
+- Execution routing.
+- Broker API integration.
+- Trade reconciliation.
+- Operational monitoring and recovery.
+
+### Research Intelligence
+
+- Knowledge retrieval.
+- Internal LLMs.
+- Research agents.
+- Automated experimentation.
+- Research memory.
+- Evidence-based analytical reasoning.
+
+---
+
+## 04. RESEARCH PRINCIPLES
+
+**Evidence over intuition**
+
+Every research hypothesis must be translated into a measurable and falsifiable proposition.
+
+**Statistical robustness over isolated performance**
 
 Results must survive appropriate statistical testing, transaction costs and out-of-sample validation.
 
-**Reproducibility over black boxes.**
+**Reproducibility over black boxes**
 
-Research processes, datasets, assumptions and results must remain traceable.
+Datasets, assumptions, methodologies and results must remain traceable.
 
-**Knowledge accumulation over repeated experiments.**
+**Knowledge accumulation over repeated experiments**
 
-Failed experiments are also valuable when their conclusions are documented and preserved.
+Rejected hypotheses are valuable research outcomes when their conclusions are properly documented.
 
-**Infrastructure over temporary solutions.**
+**Separation of research and production**
+
+A promising backtest is not a production-ready strategy. Independent validation and operational controls are required.
+
+**Infrastructure over temporary solutions**
 
 Every component should contribute to a reliable, extensible and independently operable research environment.
 
 ---
 
-## TECHNOLOGY
+## 05. DEVELOPMENT STATUS
 
-<div align="center">
+Quant Found is an evolving research and engineering project. Its architecture includes existing infrastructure, active development and longer-term research objectives.
 
-Python · Polars · NumPy · SciPy · PostgreSQL · Parquet · TypeScript · Linux · Docker · Machine Learning · Statistical Modeling · Quantitative Finance · Data Engineering · Local LLM Infrastructure
+| Area | Status |
+|---|---|
+| Market data infrastructure | Implemented / Evolving |
+| Historical data processing | Implemented |
+| MOEX research and trading infrastructure | Implemented / Evolving |
+| Crypto research data infrastructure | Implemented / Evolving |
+| Statistical research pipeline | Implemented / Evolving |
+| Quantitative strategy research | Active |
+| Knowledge Core | Planned / In Development |
+| Research experiment registry | Planned |
+| Internal LLM infrastructure | Planned |
+| Specialized research agents | Planned |
+| Autonomous research orchestration | Planned |
 
-</div>
+*Status describes the overall project direction, not a guarantee that every component is production-ready.*
+
+---
+
+## 06. DEVELOPMENT ROADMAP
+
+The long-term development strategy follows several stages.
+
+### Phase 1 — Research Infrastructure
+
+- Consolidate existing market data pipelines.
+- Standardize research workflows.
+- Establish reproducible experiments.
+- Improve data quality and validation.
+- Unify research documentation.
+
+### Phase 2 — Knowledge Infrastructure
+
+- Design the Knowledge Core architecture.
+- Implement structured knowledge storage.
+- Introduce hypothesis and experiment registries.
+- Establish evidence and provenance tracking.
+- Connect research results with accumulated knowledge.
+
+### Phase 3 — Native Intelligence
+
+- Establish local LLM infrastructure.
+- Evaluate and integrate open-weight models.
+- Build knowledge retrieval mechanisms.
+- Develop specialized research agents.
+- Introduce controlled reasoning and orchestration.
+
+### Phase 4 — Research Automation
+
+- Automated hypothesis discovery.
+- Research experiment generation.
+- Statistical evaluation and validation.
+- Automated research reporting.
+- Integration of agents with the research workflow.
+
+### Phase 5 — Autonomous Research Environment
+
+- Continuous research cycles.
+- Knowledge-driven hypothesis generation.
+- Automated experimentation.
+- Independent validation.
+- Human-supervised research decisions.
+- Integration of validated strategies into production infrastructure.
+
+---
+
+## 07. TECHNOLOGY STACK
+
+**Core Engineering**
+
+Python · Linux · Docker · Git
+
+**Data Infrastructure**
+
+Polars · NumPy · PostgreSQL · Parquet
+
+**Quantitative Research**
+
+SciPy · Statistical Modeling · Time Series Analysis · Machine Learning
+
+**AI Infrastructure**
+
+Local LLMs · Open-Weight Models · RAG · AI Agents · Knowledge Retrieval
+
+**Systems & Interfaces**
+
+TypeScript · REST APIs · Broker Integration · Monitoring
+
+*Technology selection evolves alongside system requirements.*
+
+---
+
+## 08. PROJECT PHILOSOPHY
+
+Quant Found is built around a simple idea:
+
+**A quantitative research system should become more capable as it accumulates data, experiments and verified knowledge.**
+
+The value of the infrastructure is not limited to the performance of individual trading strategies.
+
+It comes from the ability to continuously:
+
+- Observe markets.
+- Discover relationships.
+- Formulate hypotheses.
+- Conduct experiments.
+- Validate evidence.
+- Preserve knowledge.
+- Improve research processes.
+
+The long-term ambition is to create an independent quantitative research environment where data, knowledge, computation and intelligence operate as one integrated system.
 
 ---
 
 <div align="center">
 
-### MAKSIM OSTROVSKII
+## QUANT FOUND
 
-**Founder — Quant Found**
+### RESEARCH OS
+
+*Building systems that turn market data into measurable knowledge and systematic decisions.*
 
 <br>
 
-*Independent quantitative research and AI-driven research infrastructure.*
+**MAKSIM OSTROVSKII**
+
+Founder & Independent Research Engineer
 
 <br>
 
 [GitHub](https://github.com/ostmax)
+
+<br>
+
+<sub>Independent quantitative research and engineering initiative · Private R&D</sub>
 
 </div>
