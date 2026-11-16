@@ -6,307 +6,315 @@
 
 ---
 
-## 01. ABOUT
+## 01. О ПРОЕКТЕ
 
-**Quant Found** is an independent quantitative research and engineering initiative focused on systematic financial research, market intelligence and the development of data-driven trading systems.
+**Quant Found** — независимая исследовательская и инженерная инициатива, ориентированная на количественные исследования, систематический анализ финансовых рынков и создание алгоритмических торговых систем.
 
-The project brings together market data infrastructure, quantitative research, statistical modeling, machine learning and systematic trading within a unified research environment.
+Проект объединяет инфраструктуру рыночных данных, количественные исследования, статистическое моделирование, машинное обучение и систематическую торговлю в единой исследовательской среде.
 
-Its core objective is to identify, evaluate and validate repeatable statistical relationships in financial markets and transform robust findings into systematic strategies.
+Основная цель — выявлять, оценивать и проверять воспроизводимые статистические закономерности на финансовых рынках, а затем преобразовывать подтверждённые результаты в систематические торговые стратегии.
 
-Quant Found is built around four interconnected components:
+В основе Quant Found лежат четыре взаимосвязанных компонента:
 
-- **QF LLM** — an intelligence and orchestration layer connecting research knowledge, computational tools and analytical workflows.
-- **Knowledge Core** — a structured foundation for market data, research evidence, accumulated knowledge and experiment history.
-- **Tool Layer** — computational infrastructure for data processing, statistical analysis, machine learning, backtesting and simulation.
-- **Independent Validation** — a dedicated evaluation process focused on statistical significance, robustness, out-of-sample performance and risk.
+- **QF LLM** — интеллектуальный и оркестрационный слой, объединяющий исследовательские знания, вычислительные инструменты и аналитические процессы.
+- **Knowledge Core** — структурированная основа для рыночных данных, исследовательских доказательств, накопленных знаний и истории экспериментов.
+- **Tool Layer** — вычислительная инфраструктура для обработки данных, статистического анализа, машинного обучения, бэктестинга и моделирования.
+- **Independent Validation** — специализированный процесс проверки, ориентированный на статистическую устойчивость, качество результатов вне обучающей выборки, устойчивость результатов при изменении условий и оценку рисков.
 
-Together, these components establish a unified environment for quantitative investigation, experimentation and evidence-based decision-making.
+В совокупности эти компоненты формируют единую среду для количественных исследований, экспериментов и принятия решений на основе доказательств.
 
 ---
 
-## 02. SYSTEM ARCHITECTURE
+## 02. АРХИТЕКТУРА СИСТЕМЫ
 
-Quant Found is organized as an interconnected research system in which intelligence, knowledge and computational capabilities operate within a continuous research lifecycle.
+Quant Found организована как взаимосвязанная исследовательская система, в которой интеллектуальные возможности, знания и вычислительные инструменты работают в рамках непрерывного исследовательского цикла.
 
 <div align="center">
 
-<img src="./assets/quant-found-architecture.jpg" width="100%" alt="Quant Found Research OS Architecture">
+<img src="./assets/quant-found-architecture.jpg" width="100%" alt="Quant Found Research OS — Архитектура системы">
 
-<sub>Quant Found Research OS — System Architecture</sub>
+<sub>Quant Found Research OS — Архитектура системы</sub>
 
 </div>
 
-### 2.1. QF LLM — Intelligence Core
+### 2.1. QF LLM — интеллектуальное ядро
 
-QF LLM serves as the central reasoning and orchestration component of the research system.
+QF LLM выступает центральным компонентом системы, отвечающим за рассуждение и оркестрацию исследовательских процессов.
 
-Its responsibilities include:
+Его задачи включают:
 
-- Research request interpretation.
-- Contextual reasoning and analytical planning.
-- Knowledge retrieval and contextualization.
-- Hypothesis formulation.
-- Research tool orchestration.
-- Experiment coordination.
-- Interpretation of statistical results.
-- Analytical conclusions and recommendations.
-- Research knowledge management.
+- Интерпретацию исследовательских запросов.
+- Контекстное рассуждение и аналитическое планирование.
+- Поиск и контекстуализацию знаний.
+- Формулирование исследовательских гипотез.
+- Оркестрацию исследовательских инструментов.
+- Координацию экспериментов.
+- Интерпретацию статистических результатов.
+- Формирование аналитических выводов и рекомендаций.
+- Управление исследовательскими знаниями.
 
-The intelligence layer coordinates research activities while relying on deterministic computational tools for data processing, statistical calculations and validation.
+Интеллектуальный слой координирует исследовательскую деятельность, опираясь на детерминированные вычислительные инструменты для обработки данных, статистических расчётов и проверки результатов.
 
-### 2.2. Knowledge Core
+### 2.2. Knowledge Core — ядро знаний
 
-Knowledge Core provides the persistent information foundation of Quant Found.
+Knowledge Core обеспечивает постоянную информационную основу Quant Found.
 
-It connects four primary knowledge domains.
+Он объединяет четыре основных направления хранения и организации знаний.
 
-**Market Data**
-- Historical and real-time market data.
-- Prices, quotations and market events.
-- Structured datasets.
-- Market observations.
+**Market Data — рыночные данные**
 
-**Knowledge Base**
-- Quantitative research methodologies.
-- Statistical concepts and models.
-- Financial theory.
-- Research documentation.
+- Исторические и актуальные рыночные данные.
+- Цены, котировки и рыночные события.
+- Структурированные наборы данных.
+- Рыночные наблюдения.
 
-**Research Evidence**
-- Academic publications.
-- Research papers and reports.
-- Empirical observations.
-- Source provenance and traceability.
+**Knowledge Base — база знаний**
 
-**Experiment History**
-- Research hypotheses.
-- Experiment configurations and results.
-- Statistical findings.
-- Accepted and rejected hypotheses.
-- Historical research decisions.
+- Методологии количественных исследований.
+- Статистические концепции и модели.
+- Финансовая теория.
+- Исследовательская документация.
 
-The Knowledge Core preserves relationships between datasets, hypotheses, experiments, models and validation results, making research reproducible and cumulative.
+**Research Evidence — исследовательские доказательства**
 
-### 2.3. Tool Layer — Computational Infrastructure
+- Академические публикации.
+- Научные исследования и отчёты.
+- Эмпирические наблюдения.
+- Происхождение данных и прослеживаемость источников.
 
-The Tool Layer provides the computational capabilities required to conduct quantitative research.
+**Experiment History — история экспериментов**
 
-**Python Environment**
-- Data processing and analysis.
-- Computational workflows.
-- ETL operations.
-- Infrastructure integration.
+- Исследовательские гипотезы.
+- Конфигурации и результаты экспериментов.
+- Статистические выводы.
+- Подтверждённые и отклонённые гипотезы.
+- История исследовательских решений.
 
-**Statistics & Machine Learning**
-- Statistical modeling.
-- Hypothesis testing.
-- Regression and classification.
-- Feature engineering.
-- Model evaluation.
+Knowledge Core сохраняет взаимосвязи между наборами данных, гипотезами, экспериментами, моделями и результатами валидации, обеспечивая воспроизводимость и накопление исследовательских знаний.
 
-**Backtesting & Simulation**
-- Historical strategy testing.
-- Out-of-sample evaluation.
-- Transaction-cost modeling.
-- Stress testing.
-- Execution simulation.
+### 2.3. Tool Layer — вычислительная инфраструктура
 
-**Research Modules**
-- Alpha discovery.
-- Factor analysis.
-- Portfolio construction.
-- Risk assessment.
-- Specialized quantitative models.
+Tool Layer предоставляет вычислительные возможности, необходимые для проведения количественных исследований.
 
-### 2.4. Research Execution
+**Python Environment — среда Python**
 
-The research process follows five interconnected stages:
+- Обработка и анализ данных.
+- Вычислительные процессы.
+- ETL-операции.
+- Интеграция с внутренней инфраструктурой.
 
-| Stage | Component | Function |
+**Statistics & Machine Learning — статистика и машинное обучение**
+
+- Статистическое моделирование.
+- Проверка гипотез.
+- Регрессия и классификация.
+- Создание признаков (Feature Engineering).
+- Оценка моделей.
+
+**Backtesting & Simulation — бэктестинг и моделирование**
+
+- Тестирование стратегий на исторических данных.
+- Оценка результатов вне обучающей выборки.
+- Моделирование транзакционных издержек.
+- Стресс-тестирование.
+- Моделирование исполнения сделок.
+
+**Research Modules — исследовательские модули**
+
+- Поиск альфа-сигналов.
+- Факторный анализ.
+- Формирование портфелей.
+- Оценка рисков.
+- Специализированные количественные модели.
+
+### 2.4. Research Execution — выполнение исследований
+
+Исследовательский процесс состоит из пяти взаимосвязанных этапов:
+
+| Этап | Компонент | Назначение |
 |---|---|---|
-| 01 | Hypothesis | Formulation of measurable research hypotheses |
-| 02 | Data & Features | Dataset preparation and feature engineering |
-| 03 | Modeling | Statistical modeling and model development |
-| 04 | Strategy | Strategy construction and portfolio logic |
-| 05 | Experiments | Experiment execution and simulation |
+| 01 | Hypothesis | Формулирование измеримых исследовательских гипотез |
+| 02 | Data & Features | Подготовка наборов данных и создание признаков |
+| 03 | Modeling | Статистическое моделирование и разработка моделей |
+| 04 | Strategy | Разработка стратегий и портфельной логики |
+| 05 | Experiments | Проведение экспериментов и симуляций |
 
-Each experiment produces structured outputs that can be reproduced, analyzed and independently evaluated.
+Каждый эксперимент формирует структурированные результаты, которые можно воспроизвести, проанализировать и подвергнуть независимой оценке.
 
-### 2.5. Independent Validation
+### 2.5. Independent Validation — независимая валидация
 
-Independent Validation is a fundamental quality-control mechanism.
+Independent Validation — фундаментальный механизм контроля качества исследовательских результатов.
 
-Research results are evaluated using:
+Результаты исследований оцениваются по следующим критериям:
 
-- Statistical significance.
-- Out-of-sample performance.
-- Robustness testing.
-- Transaction costs and execution assumptions.
-- Risk assessment.
-- Stability across market conditions.
+- Статистическая значимость.
+- Результаты вне обучающей выборки (Out-of-Sample).
+- Устойчивость результатов при изменении параметров.
+- Стабильность результатов в различных рыночных условиях.
+- Транзакционные издержки и предположения об исполнении сделок.
+- Оценка рисков.
 
-A promising backtest is not sufficient evidence of a viable trading strategy.
+Перспективного бэктеста недостаточно, чтобы считать торговую стратегию жизнеспособной.
 
-Validation must distinguish statistically robust findings from results caused by overfitting, data leakage, execution assumptions or market-specific conditions.
+Валидация должна отличать статистически устойчивые закономерности от результатов, обусловленных переобучением, утечкой данных, предположениями об исполнении сделок или специфическими рыночными условиями.
 
-### 2.6. Decision & Knowledge Update
+### 2.6. Decision & Knowledge Update — принятие решений и обновление знаний
 
-Research outcomes are converted into structured conclusions and preserved within the Knowledge Core.
+Результаты исследований преобразуются в структурированные выводы и сохраняются в Knowledge Core.
 
-The process includes:
+Процесс включает:
 
-1. Analysis of experimental results.
-2. Evaluation of validation outcomes.
-3. Formulation of research conclusions.
-4. Preparation of recommendations.
-5. Updating the accumulated research knowledge.
+1. Анализ результатов экспериментов.
+2. Оценку результатов валидации.
+3. Формирование исследовательских выводов.
+4. Подготовку рекомендаций.
+5. Обновление накопленных исследовательских знаний.
 
-Both successful and unsuccessful experiments contribute to the research history.
+Как успешные, так и неуспешные эксперименты пополняют исследовательскую историю.
 
-This creates a continuous feedback mechanism in which previous findings inform subsequent investigations.
-
----
-
-## 03. CORE CAPABILITIES
-
-### Market Data Engineering
-
-- Historical and real-time market data.
-- Data normalization and quality control.
-- High-volume time-series processing.
-- Parquet-based storage infrastructure.
-- Market microstructure research.
-- Structured dataset management.
-
-### Quantitative Research
-
-- Statistical arbitrage.
-- Pairs trading and relative-value strategies.
-- Cross-sectional alpha research.
-- Market-neutral strategies.
-- Event-driven research.
-- Time-series analysis.
-- Statistical hypothesis testing.
-
-### Modeling & Machine Learning
-
-- Statistical models.
-- Regression and classification.
-- Gradient boosting.
-- Time-series modeling.
-- Feature engineering.
-- Model evaluation and validation.
-
-### Systematic Trading
-
-- Portfolio construction.
-- Position sizing.
-- Risk management.
-- Execution routing.
-- Broker API integration.
-- Trade reconciliation.
-- Operational monitoring and recovery.
-
-### Research Intelligence
-
-- Knowledge retrieval.
-- Internal LLM architecture.
-- Research agents.
-- Contextual reasoning.
-- Automated experimentation.
-- Research memory.
-- Evidence-based analytical reasoning.
+Таким образом формируется непрерывный механизм обратной связи, в котором результаты предыдущих исследований используются при проведении последующих.
 
 ---
 
-## 04. RESEARCH PRINCIPLES
+## 03. ОСНОВНЫЕ ВОЗМОЖНОСТИ
 
-**Evidence over intuition**
+### Инженерия рыночных данных (Market Data Engineering)
 
-Every research hypothesis must be translated into a measurable and falsifiable proposition.
+- Исторические и актуальные рыночные данные.
+- Нормализация данных и контроль качества.
+- Обработка больших объёмов временных рядов.
+- Инфраструктура хранения на основе Parquet.
+- Исследование микроструктуры рынка.
+- Управление структурированными наборами данных.
 
-**Statistical robustness over isolated performance**
+### Количественные исследования (Quantitative Research)
 
-Results must survive appropriate statistical testing, transaction costs and out-of-sample validation.
+- Статистический арбитраж.
+- Парная торговля и стратегии относительной стоимости.
+- Исследование кросс-секционных альфа-сигналов.
+- Рыночно-нейтральные стратегии.
+- Исследования событийных сигналов.
+- Анализ временных рядов.
+- Статистическая проверка гипотез.
 
-**Reproducibility over black boxes**
+### Моделирование и машинное обучение (Modeling & Machine Learning)
 
-Datasets, assumptions, methodologies and results must remain traceable.
+- Статистические модели.
+- Регрессия и классификация.
+- Градиентный бустинг.
+- Моделирование временных рядов.
+- Создание признаков.
+- Оценка и валидация моделей.
 
-**Knowledge accumulation over repeated experiments**
+### Систематическая торговля (Systematic Trading)
 
-Rejected hypotheses are valuable research outcomes when their conclusions are properly documented.
+- Формирование инвестиционных портфелей.
+- Определение размеров позиций.
+- Управление рисками.
+- Маршрутизация торговых заявок.
+- Интеграция с брокерскими API.
+- Сверка торговых операций.
+- Операционный мониторинг и восстановление после сбоев.
 
-**Separation of research and production**
+### Исследовательский интеллект (Research Intelligence)
 
-A promising backtest is not a production-ready strategy. Independent validation and operational controls are essential.
-
-**Deterministic computation over unsupported inference**
-
-Statistical calculations, market-data processing and validation must be performed by appropriate computational tools. Language models support reasoning and orchestration rather than replacing deterministic computation.
-
-**Infrastructure over temporary solutions**
-
-Research components must contribute to a reliable, extensible and reproducible environment.
+- Поиск и извлечение знаний.
+- Внутренняя архитектура LLM.
+- Исследовательские агенты.
+- Контекстное рассуждение.
+- Автоматизация экспериментов.
+- Исследовательская память.
+- Аналитическое рассуждение на основе доказательств.
 
 ---
 
-## 05. TECHNOLOGY STACK
+## 04. ПРИНЦИПЫ ИССЛЕДОВАНИЙ
 
-**Core Engineering**
+**Доказательства важнее интуиции (Evidence over intuition)**
+
+Каждая исследовательская гипотеза должна быть преобразована в измеримое и опровержимое утверждение.
+
+**Устойчивость результатов важнее единичной доходности (Statistical robustness over isolated performance)**
+
+Результаты должны выдерживать соответствующие статистические проверки, учёт транзакционных издержек и тестирование вне обучающей выборки.
+
+**Воспроизводимость важнее непрозрачных моделей (Reproducibility over black boxes)**
+
+Наборы данных, предположения, методологии и результаты должны оставаться прослеживаемыми.
+
+**Накопление знаний важнее повторения экспериментов (Knowledge accumulation over repeated experiments)**
+
+Отклонённые гипотезы представляют ценность для исследований, если причины их отклонения и полученные выводы надлежащим образом задокументированы.
+
+**Разделение исследований и промышленной эксплуатации (Separation of research and production)**
+
+Перспективный бэктест не означает, что стратегия готова к реальной торговле. Необходимы независимая валидация и операционные механизмы контроля.
+
+**Детерминированные вычисления важнее неподтверждённых предположений (Deterministic computation over unsupported inference)**
+
+Статистические расчёты, обработка рыночных данных и валидация должны выполняться соответствующими вычислительными инструментами. Языковые модели помогают в рассуждении и оркестрации, но не заменяют детерминированные вычисления.
+
+**Инфраструктура важнее временных решений (Infrastructure over temporary solutions)**
+
+Исследовательские компоненты должны формировать надёжную, расширяемую и воспроизводимую среду.
+
+---
+
+## 05. ТЕХНОЛОГИЧЕСКИЙ СТЕК
+
+**Основная инженерная инфраструктура (Core Engineering)**
 
 Python · Linux · Docker · Git
 
-**Data Infrastructure**
+**Инфраструктура данных (Data Infrastructure)**
 
 Polars · NumPy · PostgreSQL · Parquet
 
-**Quantitative Research**
+**Количественные исследования (Quantitative Research)**
 
 SciPy · Statistical Modeling · Time Series Analysis · Machine Learning
 
-**AI Infrastructure**
+**Инфраструктура искусственного интеллекта (AI Infrastructure)**
 
 Local LLMs · Open-Weight Models · RAG · AI Agents · Knowledge Retrieval
 
-**Systems & Interfaces**
+**Системы и интерфейсы (Systems & Interfaces)**
 
 TypeScript · REST APIs · Broker Integration · Monitoring
 
 ---
 
-## 06. PROJECT PHILOSOPHY
+## 06. ФИЛОСОФИЯ ПРОЕКТА
 
-Quant Found is built around a simple principle:
+Quant Found построена вокруг простого принципа:
 
-**A quantitative research system should become more capable as it accumulates data, experiments and verified knowledge.**
+**Исследовательская количественная система должна становиться более эффективной и интеллектуальной по мере накопления данных, экспериментов и проверенных знаний.**
 
-The value of research infrastructure is not limited to the performance of individual trading strategies.
+Ценность исследовательской инфраструктуры не ограничивается результатами отдельных торговых стратегий.
 
-It comes from the ability to continuously:
+Она заключается в способности непрерывно:
 
-- Observe markets.
-- Discover relationships.
-- Formulate hypotheses.
-- Conduct experiments.
-- Evaluate statistical evidence.
-- Validate research results.
-- Preserve knowledge.
-- Improve research processes.
+- Наблюдать за рынками.
+- Выявлять закономерности.
+- Формулировать гипотезы.
+- Проводить эксперименты.
+- Оценивать статистические доказательства.
+- Проверять исследовательские результаты.
+- Сохранять знания.
+- Совершенствовать исследовательские процессы.
 
-The ultimate objective is to establish an independent quantitative research environment where data, knowledge, computation and intelligence operate as one integrated system.
+Конечная цель — создать независимую среду количественных исследований, в которой данные, знания, вычисления и интеллектуальные возможности функционируют как единая интегрированная система.
 
 ---
 
 <div align="center">
 
-**MAKSIM OSTROVSKII**
+**МАКСИМ ОСТРОВСКИЙ**
 
-Founder · Quant Found
+Основатель · Quant Found
 
 [GitHub](https://github.com/ostmax)
 
-<sub>Independent Quantitative Research & Engineering</sub>
+<sub>Независимые количественные исследования и инженерия</sub>
 
 </div>
