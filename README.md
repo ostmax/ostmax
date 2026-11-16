@@ -47,8 +47,6 @@
 
 ## 02. Архитектура
 
-Архитектура Quant Found Research OS построена вокруг взаимодействия четырёх основных компонентов: интеллектуального ядра, системы знаний, вычислительной инфраструктуры и независимой валидации.
-
 <div align="center">
   <img src="./assets/quant-found-architecture.jpg" width="100%" alt="Quant Found Research OS — System Architecture">
   <sub>Quant Found Research OS — Архитектура системы</sub>
